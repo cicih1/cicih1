@@ -28,9 +28,6 @@
 
 ## 📝 Publications
 
-### [A1] Learning Expert Strategy for Autonomous Robotic Endovascular Intervention via Decoupled Procedural Execution
-**Yanxi Chen**, Tianliang Yao, Shaolong Tang, Jiyuan Zhao, Hengyu Hu, Zhaoxing Li, Antonio J. Sánchez Egea, Peng Qi†  
-*IROS 2026 (Under Review), 2026*
 
 ### [A2] Helically Wound Fiber Bragg Grating Sensor for Shape Sensing in Interventional Procedures
 Lizhuang Sun, **Yanxi Chen**, Jingqian Sun, Chenlong Yang, Yichao Tang†  
