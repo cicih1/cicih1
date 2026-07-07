@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yanxi Chen | Curriculum Vitae</title>
+  <meta name="description" content="Yanxi Chen - medical robotics, autonomous interventional robotics, robot learning, surgical perception, and intelligent medical devices." />
+  <style>
+    :root {
+      --bg: #f7f8fb;
+      --paper: #ffffff;
+      --ink: #1f2937;
+      --muted: #5f6b7a;
+      --line: #e5e7eb;
+      --blue: #2563eb;
+      --blue-dark: #1e40af;
+      --soft-blue: #eff6ff;
+      --green: #047857;
+      --soft-green: #ecfdf5;
+      --shadow: 0 18px 60px rgba(15, 23, 42, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top left, #dbeafe 0, transparent 34%), var(--bg);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+    }
+
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { color: var(--blue-dark); text-decoration: underline; }
+
+    .page {
+      width: min(1120px, calc(100% - 32px));
+      margin: 32px auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .hero {
+      padding: 56px 56px 36px;
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 58%, #2563eb 100%);
+      color: #fff;
+    }
+
+    .eyebrow {
+      margin: 0 0 14px;
+      color: #bfdbfe;
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 7vw, 4.8rem);
+      line-height: 1;
+      letter-spacing: -0.06em;
+    }
+
+    .tagline {
+      max-width: 860px;
+      margin: 20px 0 0;
+      color: #e0f2fe;
+      font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr;
+      gap: 28px;
+      margin-top: 34px;
+      align-items: end;
+    }
+
+    .contact-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      color: #fff;
+      font-weight: 650;
+      font-size: 0.92rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .pill:hover { color: #fff; text-decoration: none; background: rgba(255,255,255,0.18); }
+
+    .actions {
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    button, .button {
+      border: 0;
+      border-radius: 999px;
+      padding: 10px 16px;
+      font-weight: 750;
+      cursor: pointer;
+      background: #fff;
+      color: #172554;
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.16);
+      font: inherit;
+    }
+
+    .button.secondary {
+      background: rgba(255,255,255,0.13);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.28);
+      box-shadow: none;
+    }
+
+    main { padding: 42px 56px 56px; }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+
+    .metric {
+      padding: 18px;
+      border-radius: 20px;
+      background: var(--soft-blue);
+      border: 1px solid #dbeafe;
+    }
+
+    .metric strong {
+      display: block;
+      font-size: 1.8rem;
+      line-height: 1;
+      color: #1d4ed8;
+      letter-spacing: -0.04em;
+    }
+
+    .metric span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    section {
+      padding: 28px 0;
+      border-top: 1px solid var(--line);
+    }
+
+    section:first-of-type { border-top: 0; padding-top: 0; }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 1.05rem;
+      letter-spacing: 0.13em;
+      color: #111827;
+      text-transform: uppercase;
+    }
+
+    h3 { margin: 0 0 4px; font-size: 1.08rem; }
+    p { margin: 0 0 12px; }
+
+    .muted { color: var(--muted); }
+    .small { font-size: 0.92rem; }
+
+    .item {
+      padding: 18px 0;
+      border-bottom: 1px dashed var(--line);
+    }
+
+    .item:first-child { padding-top: 0; }
+    .item:last-child { border-bottom: 0; padding-bottom: 0; }
+
+    .item-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      align-items: baseline;
+    }
+
+    .date { color: var(--muted); white-space: nowrap; font-size: 0.93rem; }
+
+    ul { margin: 8px 0 0; padding-left: 1.15rem; }
+    li { margin: 5px 0; }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #f3f4f6;
+      color: #374151;
+      font-size: 0.88rem;
+      font-weight: 650;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .card {
+      padding: 18px;
+      border-radius: 18px;
+      background: #fafafa;
+      border: 1px solid var(--line);
+    }
+
+    .card h3 { color: #111827; }
+
+    .pub-title { font-weight: 750; }
+    .venue { color: var(--green); font-weight: 750; }
+
+    footer {
+      padding: 24px 56px;
+      background: #f8fafc;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 840px) {
+      .hero, main, footer { padding-left: 24px; padding-right: 24px; }
+      .hero-grid, .section-head, .summary-grid, .cards { grid-template-columns: 1fr; }
+      .actions { justify-content: flex-start; }
+      .item-top { flex-direction: column; gap: 4px; }
+      .date { white-space: normal; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .page { width: 100%; margin: 0; border: 0; border-radius: 0; box-shadow: none; }
+      .hero { padding: 28px 36px; background: #fff; color: #111827; border-bottom: 2px solid #111827; }
+      .eyebrow, .tagline { color: #374151; }
+      main { padding: 24px 36px; }
+      footer, .actions { display: none; }
+      .pill { color: #111827; background: #fff; border-color: #d1d5db; }
+      section { break-inside: avoid; padding: 18px 0; }
+      a { color: #111827; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <p class="eyebrow">Curriculum Vitae</p>
+      <h1>Yanxi Chen</h1>
+      <p class="tagline">Undergraduate researcher in medical robotics, focusing on autonomous robotic endovascular intervention, robot learning, surgical perception, mechanical design, and real-world validation.</p>
+      <div class="hero-grid">
+        <div class="contact-row">
+          <a class="pill" href="mailto:cicih1@tongji.edu.cn">cicih1@tongji.edu.cn</a>
+          <a class="pill" href="mailto:cicichen627@gmail.com">cicichen627@gmail.com</a>
+          <a class="pill" href="https://github.com/cicih1">GitHub: cicih1</a>
+          <a class="pill" href="https://www.linkedin.com/in/yanxi-chen-905b16380/">LinkedIn</a>
+        </div>
+        <div class="actions">
+          <button onclick="window.print()">Print / Save PDF</button>
+          <a class="button secondary" href="https://github.com/cicih1/cicih1">GitHub Profile</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="summary-grid">
+        <div class="metric"><strong>2027</strong><span>Expected B.Eng. graduation</span></div>
+        <div class="metric"><strong>95/100</strong><span>Major GPA</span></div>
+        <div class="metric"><strong>4</strong><span>Selected publications / manuscripts</span></div>
+        <div class="metric"><strong>2</strong><span>Pending patent applications</span></div>
+      </div>
+
+      <section>
+        <div class="section-head">
+          <h2>Profile</h2>
+          <div>
+            <p>My research interests lie in medical robotics, especially autonomous robotic systems that integrate learning-based control, mechanical design, and experimental validation. I aim to leverage biomechanics and computational methods to advance healthcare technologies with stronger robustness, safety, and clinical applicability.</p>
+            <div class="chips">
+              <span class="chip">Medical Robotics</span>
+              <span class="chip">Autonomous Endovascular Intervention</span>
+              <span class="chip">Reinforcement Learning</span>
+              <span class="chip">Surgical Perception</span>
+              <span class="chip">Sim-to-Real Validation</span>
+              <span class="chip">Mechanical Design</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Education</h2>
+          <div class="item">
+            <div class="item-top">
+              <div>
+                <h3>Tongji University</h3>
+                <p class="muted">B.Eng. in Intelligent Manufacturing Engineering, Shanghai, China</p>
+              </div>
+              <span class="date">Sep. 2023 - Jun. 2027 expected</span>
+            </div>
+            <ul>
+              <li>Major GPA: <strong>95/100, 5.0/5.0</strong>; Overall GPA: <strong>88.6/100, 4.36/5.0</strong>.</li>
+              <li>Selected coursework: Control Engineering, Mechatronics System Project, Sensors and Measurement Technology, Electronic Circuit Design, Fluid Mechanics and Hydraulic Transmission, Mechanics of Materials, Python Programming, Artificial Intelligence.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Research Themes</h2>
+          <div class="cards">
+            <div class="card">
+              <h3>Autonomous Interventional Robotics</h3>
+              <p class="small muted">Hierarchical learning, guidewire navigation, predictive optimal control constraints, safety-critical execution, and sim-to-real validation.</p>
+            </div>
+            <div class="card">
+              <h3>Surgical Vision and Perception</h3>
+              <p class="small muted">Vision-based pose perception, dual-head U-Net frameworks, segmentation, centerline extraction, and robotic state estimation.</p>
+            </div>
+            <div class="card">
+              <h3>Intelligent Medical Devices</h3>
+              <p class="small muted">Medical device design, rapid prototyping, 3D printing, reverse molding, pVAD-related structures, and robotic experimental platforms.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Publications</h2>
+          <div>
+            <div class="item">
+              <p class="pub-title">[A1] Learning Expert Strategy for Autonomous Robotic Endovascular Intervention via Decoupled Procedural Execution.</p>
+              <p class="muted">Yanxi Chen, Tianliang Yao, Shaolong Tang, Jiyuan Zhao, Hengyu Hu, Zhaoxing Li, Antonio J. Sanchez Egea, Peng Qi.</p>
+              <p class="venue">IROS 2026, accepted.</p>
+            </div>
+            <div class="item">
+              <p class="pub-title">[A2] An On-demand Morphing Impeller Pump for Low-Speed, Hemocompatible pVADs.</p>
+              <p class="muted">Xiaolong Chen, Zhenyan Zhu, Yanxi Chen, Fulong Wang, Xu Chen, Liming Gao, Lingyun Shen, Yichao Tang.</p>
+              <p class="venue">Advanced Healthcare Materials, 2026.</p>
+            </div>
+            <div class="item">
+              <p class="pub-title">[A3] Vision-Based Pose Perception for Interventional Robots via a Dual-Head U-Net Framework.</p>
+              <p class="muted">Yanxi Chen, Shunhan Ji, Zhongyu Yang, Shouwang Yang, Quan Zhang, Weihan Zhang, Zhangrui Yang, Jingqian Sun, Yichao Tang.</p>
+              <p class="venue">2026 IEEE Region 10 Symposium, 2026.</p>
+            </div>
+            <div class="item">
+              <p class="pub-title">[A4] Passive moire-pattern imaging for large-field optical flatness assessment of textured bipolar plates.</p>
+              <p class="muted">Liyan Zhao, Yanxi Chen, Yuxuan Lu, Weimin Zhang, Shaoyu Lin, Wanying Liu, Hailang Wan, Christopher Ehrmann, Junying Min.</p>
+              <p class="venue">Optics and Lasers in Engineering, under review, 2026.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Research Experience</h2>
+          <div>
+            <div class="item">
+              <div class="item-top">
+                <div>
+                  <h3>Medical Robotics Lab, Tongji University</h3>
+                  <p class="muted">Research Assistant, advised by Prof. Peng Qi</p>
+                </div>
+                <span class="date">Sep. 2025 - Present</span>
+              </div>
+              <ul>
+                <li>Designed a hierarchical learning framework for autonomous endovascular guidewire navigation.</li>
+                <li>Integrated high-level policy learning with predictive optimal control constraints for safety-critical execution.</li>
+                <li>Validated task-level autonomy in complex vascular simulation environments and conducted sim-to-real validation on a physical endovascular robotic platform.</li>
+              </ul>
+            </div>
+            <div class="item">
+              <div class="item-top">
+                <div>
+                  <h3>BioNACH Lab, Tongji University</h3>
+                  <p class="muted">Research Assistant, advised by Prof. Yichao Tang</p>
+                </div>
+                <span class="date">Dec. 2023 - Jul. 2025</span>
+              </div>
+              <ul>
+                <li>Designed a novel impeller blade structure and fabricated it using reverse molding and 3D printing techniques.</li>
+                <li>Developed and optimized an interventional robotic system for cardio-cerebrovascular procedures.</li>
+                <li>Integrated mechanical design, rapid prototyping, vision-based pose perception algorithms, control implementation, and experimental validation.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Patents</h2>
+          <div>
+            <div class="item">
+              <p class="pub-title">[B1] A Bipolar Plate Flatness Detection Method Based on Image Moire Patterns.</p>
+              <p class="muted">Chinese Patent Application No. 2025119773476, pending, 2025.</p>
+            </div>
+            <div class="item">
+              <p class="pub-title">[B2] A Liftable Vacuum Adsorption Device for Grabbing Large-Format Fuel Cell Components.</p>
+              <p class="muted">Chinese Patent Application No. 202511897027X, pending, 2025.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Additional Experience</h2>
+          <div>
+            <div class="item">
+              <div class="item-top"><h3>KTUR Summer School 2025 - Project Team Lead</h3><span class="date">Aug. 2025</span></div>
+              <p class="muted">Selected as the first Chinese participant in the KTUR Summer School program; led Nanovoyage to explore commercialization pathways for a medical robotics research project.</p>
+            </div>
+            <div class="item">
+              <div class="item-top"><h3>Digital Twin Process Planning and Manufacturing Path Optimization - Team Leader</h3><span class="date">Mar. 2025 - Aug. 2025</span></div>
+              <p class="muted">Applied digital twin technology to model production processes and optimize process planning pathways.</p>
+            </div>
+            <div class="item">
+              <div class="item-top"><h3>Wheeled-Legged Robot - Robot Designer</h3><span class="date">Mar. 2025 - Jun. 2025</span></div>
+              <p class="muted">Replicated a wheeled-legged mobile robot integrating a lightweight manipulator with a two-wheeled locomotion system.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Honors</h2>
+          <div>
+            <ul>
+              <li>2024 and 2025 Tongji University Excellent Student Scholarship.</li>
+              <li>2024 and 2025 Social Activity Scholarship.</li>
+              <li>2025 Mechanical Engineering Innovation and Creativity Competition, National Second Prize.</li>
+              <li>2024 Tuoya Scholarship for outstanding proficiency in English.</li>
+              <li>2024 Tongji University Applied Mechanics Innovation Competition, Third Prize.</li>
+              <li>2024 VEX Robotics Competition at Tongji University, Second Prize and Design Award.</li>
+              <li>2023 National Innovation Engineering Competition, National Third Prize.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <h2>Skills</h2>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">LaTeX</span><span class="chip">SQL</span><span class="chip">C#</span><span class="chip">MATLAB</span>
+            <span class="chip">PyTorch</span><span class="chip">TensorFlow</span><span class="chip">NumPy</span><span class="chip">OpenCV</span><span class="chip">Git</span><span class="chip">Anaconda</span>
+            <span class="chip">SolidWorks</span><span class="chip">AutoCAD</span><span class="chip">3ds Max</span><span class="chip">3D Printing</span>
+            <span class="chip">Chinese</span><span class="chip">English</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Last updated: July 7, 2026. This online CV is maintained on GitHub and can be printed or saved as a PDF from the browser.
+    </footer>
+  </div>
+</body>
+</html>
