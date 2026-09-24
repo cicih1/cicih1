@@ -8,7 +8,7 @@ My research connects **learning-based decision-making, model-based control, and 
 
 **I am seeking PhD opportunities for Fall 2027**, primarily in medical and surgical robotics, with an interest in robot learning and safe autonomy.
 
-[Email](mailto:cicichen627@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=MfBPVXwAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yanxi-chen-905b16380)
+[Website](https://cicih1.github.io/) · [CV](https://cicih1.github.io/assets/YanxiCHEN_CV.pdf) · [Email](mailto:cicichen627@gmail.com) · [Google Scholar](https://scholar.google.com/citations?user=MfBPVXwAAAAJ) · [LinkedIn](https://www.linkedin.com/in/yanxi-chen-905b16380)
 
 ## Research experience
 
