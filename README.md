@@ -2,7 +2,9 @@
 
 **Medical & surgical robotics · Robot learning · Safe autonomy**
 
-I am an undergraduate in **Intelligent Manufacturing Engineering at Tongji University** (B.Eng. expected June 2027; GPA **3.88/4.0**) and a research assistant in the [Biomedical Mechatronics (BM²) Lab](https://sites.gatech.edu/labbm2/people/) at Georgia Tech, advised by [Prof. Yue Chen](https://bme.gatech.edu/bio/yue-chen).
+I am an undergraduate in **Intelligent Manufacturing Engineering at Tongji University** (B.Eng. expected June 2027; GPA **3.88/4.0**, WES U.S. equivalent) and a research assistant in the [Biomedical Mechatronics (BM²) Lab](https://sites.gatech.edu/labbm2/people/) at Georgia Tech, advised by [Prof. Yue Chen](https://bme.gatech.edu/bio/yue-chen).
+
+I previously worked with **Prof. Patrick Codd and Prof. Leila Bridgeman** at Duke University and **Prof. Peng Qi and Prof. Yichao Tang** at Tongji University, building experience across medical device design, robotic perception, and autonomous intervention.
 
 My research connects **learning-based decision-making, model-based control, and mechanical design** for autonomous medical robots, with an emphasis on experimental validation. I work on autonomous endovascular navigation, robotic laser surgery, and language-guided surgical assistance.
 
@@ -33,7 +35,7 @@ My research connects **learning-based decision-making, model-based control, and 
 
 **Vision-Based Pose Perception for Interventional Robots via a Dual-Head U-Net Framework**  
 **Yanxi Chen**, Shunhan Ji, Zhongyu Yang, Shouwang Yang, Quan Zhang, Weihan Zhang, Zhangrui Yang, Jingqian Sun, Yichao Tang  
-*TENSYMP 2026* · [Paper materials](https://www.dropbox.com/scl/fo/z1vt22rh347swuorhd5ob/ABKJ0e4po36Lmu7EgPu6Xac?rlkey=yjzzi2llwq622j0bpllh3w3ed&st=9u98skc0&dl=0) · [Video](https://youtu.be/jHAR8L9TdV4) · [Related code](https://github.com/cicih1/A-Dual-head-U-net-Framework)
+*TENSYMP 2026* · [Paper](https://ieeexplore.ieee.org/abstract/document/11704087) · [Video](https://youtu.be/jHAR8L9TdV4) · [Related code](https://github.com/cicih1/A-Dual-head-U-net-Framework)
 
 **An On-demand Morphing Impeller Pump for Low-Speed, Hemocompatible pVADs**  
 Xiaolong Chen, Zhenyan Zhu, **Yanxi Chen**, Fulong Wang, Xu Chen, Liming Gao, Lingyun Shen, Yichao Tang  
@@ -41,14 +43,20 @@ Xiaolong Chen, Zhenyan Zhu, **Yanxi Chen**, Fulong Wang, Xu Chen, Liming Gao, Li
 
 *\* Equal contribution.*
 
-## Manuscripts under review & in revision
+## Manuscripts under review
 
+- **Maneuver-Aware Flow-Matching Action Chunking with Rolling-Horizon Replanning for Autonomous Robotic Endovascular Intervention**  
+  **Yanxi Chen**, Tianliang Yao, Zhaoxing Li, Yuxiang Fan, Dong Liu, Tao Liu, Antonio J. Sánchez Egea, Peng Qi  
+  *IEEE Transactions on Automation Science and Engineering — under review, 2026.*
+- **Helically Wound Fiber Bragg Grating Sensor for Shape Sensing in Interventional Procedures**  
+  Jing Lv, **Yanxi Chen**, Jingqian Sun, Chenlong Yang, Yichao Tang, Lizhuang Sun  
+  *IEEE Sensors Journal — revised manuscript under review, 2026.*
 - **LAMP: Learning Action-Relevant Manipulation-Centric Visual Perception with Illumination-Adaptive Latent Representations**  
   Wentong Tian, Tianliang Yao, Jiyuan Zhao, Zhengyu Shi, **Yanxi Chen**, Peng Qi  
   *ICRA 2027 — under review.*
 - **Passive moire-pattern imaging for large-field optical flatness assessment of textured bipolar plates**  
   Liyan Zhao, **Yanxi Chen**, Yuxuan Lu, Weimin Zhang, Shaoyu Lin, Wanying Liu, Hailang Wan, Christopher Ehrmann, Junying Min  
-  *Optics and Lasers in Engineering — in revision, 2026.*
+  *Optics and Lasers in Engineering — revised manuscript under review, 2026.*
 
 ## Selected honors
 
@@ -64,4 +72,5 @@ Xiaolong Chen, Zhenyan Zhu, **Yanxi Chen**, Fulong Wang, Xu Chen, Liming Gao, Li
 
 [Contact me](mailto:cicichen627@gmail.com) · [University email](mailto:cicih1@tongji.edu.cn)
 
-<sub>Updated September 2026.</sub>
+<sub>Updated October 2026.</sub>
+
