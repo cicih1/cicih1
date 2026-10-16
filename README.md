@@ -43,20 +43,6 @@ Xiaolong Chen, Zhenyan Zhu, **Yanxi Chen**, Fulong Wang, Xu Chen, Liming Gao, Li
 
 *\* Equal contribution.*
 
-## Manuscripts under review
-
-- **Maneuver-Aware Flow-Matching Action Chunking with Rolling-Horizon Replanning for Autonomous Robotic Endovascular Intervention**  
-  **Yanxi Chen**, Tianliang Yao, Zhaoxing Li, Yuxiang Fan, Dong Liu, Tao Liu, Antonio J. Sánchez Egea, Peng Qi  
-  *IEEE Transactions on Automation Science and Engineering — under review, 2026.*
-- **Helically Wound Fiber Bragg Grating Sensor for Shape Sensing in Interventional Procedures**  
-  Jing Lv, **Yanxi Chen**, Jingqian Sun, Chenlong Yang, Yichao Tang, Lizhuang Sun  
-  *IEEE Sensors Journal — revised manuscript under review, 2026.*
-- **LAMP: Learning Action-Relevant Manipulation-Centric Visual Perception with Illumination-Adaptive Latent Representations**  
-  Wentong Tian, Tianliang Yao, Jiyuan Zhao, Zhengyu Shi, **Yanxi Chen**, Peng Qi  
-  *ICRA 2027 — under review.*
-- **Passive moire-pattern imaging for large-field optical flatness assessment of textured bipolar plates**  
-  Liyan Zhao, **Yanxi Chen**, Yuxuan Lu, Weimin Zhang, Shaoyu Lin, Wanying Liu, Hailang Wan, Christopher Ehrmann, Junying Min  
-  *Optics and Lasers in Engineering — revised manuscript under review, 2026.*
 
 ## Selected honors
 
